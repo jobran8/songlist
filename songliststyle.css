@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+head {display:block; text-align: center; font-size: 45px;}
+title {display:block;font-size: 32px;}
+artist {display:block;font-size: 20px;margin-left: 20px;}
+genre {display:block; font-size: 20px; margin-left: 20px;}
+released {display:block; font-size: 20px; margin-left: 20px;}

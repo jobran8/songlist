@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href = "songliststyle.css" ?>
+
+<setlist>
+    <head> Set List for Silver Arrow Band (Boston, MA) </head>
+    <song1>
+        <title> 24K Magic </title>
+        <artist> Bruno Mars </artist>
+        <genre> Funk </genre>
+        <released> 2016 </released>
+    </song1>
+    <song2>
+        <title> Move Like Jagger </title>
+        <artist> Marooon 5 </artist>
+        <genre> Disco </genre>
+        <released> 2011 </released>
+    </song2>
+    <song3>
+        <title> Can't Stop The Feeling </title>
+        <artist> Justin Timberlake </artist>
+        <genre> Pop </genre>
+        <released> 2016 </released>
+    </song3> 
+    <song4>
+        <title> Crazy in Love </title>
+        <artist> Beyoncé </artist>
+        <genre> R n B </genre>
+        <released> 2003 </released>
+    </song4> 
+    <song5>
+        <title> Locked Out of Heaven </title>
+        <artist> Bruno Mars </artist>
+        <genre> Pop </genre>
+        <released> 2012 </released>
+    </song5> 
+    <song6>
+        <title> Perfect </title>
+        <artist> Ed Sheeran </artist>
+        <genre> Pop </genre>
+        <released> 2017 </released>
+    </song6> 
+    <song7>
+        <title> Despacito </title>
+        <artist> Luis Fonsi Ft. Justin Bieber </artist>
+        <genre> Reggaeton </genre>
+        <released> 2017 </released>
+    </song7> 
+    <song8>
+        <title> Don't Start Now </title>
+        <artist> Dua Lipa </artist>
+        <genre> Pop </genre>
+        <released> 2019 </released>
+    </song8> 
+    <song9>
+        <title> Feel It Still </title>
+        <artist> Portugal. The Man </artist>
+        <genre> Funk </genre>
+        <released> 2017 </released>
+    </song9> 
+    <song10>
+        <title> Get Lucky </title>
+        <artist> Daft Punk </artist>
+        <genre> Electronic Dance Music </genre>
+        <released> 2013 </released>
+    </song10>      
+</setlist>
+
