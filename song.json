@@ -1,0 +1,62 @@
+[
+       {
+           "title": "24K Magic",
+           "artist": "Bruno Mars",
+           "genre": "Funk",
+           "released": 2016
+       },
+       {
+           "title": "Move Like Jagger",
+           "artist": "Maroon 5",
+           "genre": "Disco",
+           "released": 2011
+       },
+       {
+           "title": "Can't Stop The Feeling",
+           "artist": "Justin Timberlake",
+           "genre": "Pop",
+           "released": 2016
+       },
+       {
+           "title": "Crazy in Love",
+           "artist": "Beyoncé",
+           "genre": "R&B",
+           "released": 2003
+       },
+       {
+           "title": "Locked Out of Heaven",
+           "artist": "Bruno Mars",
+           "genre": "Pop",
+           "released": 2012
+       },
+       {
+           "title": "Perfect",
+           "artist": "Ed Sheeran",
+           "genre": "Pop",
+           "released": 2017
+       },
+       {
+           "title": "Despacito",
+           "artist": "Luis Fonsi Ft. Justin Bieber",
+           "genre": "Reggaeton",
+           "released": 2017
+       },
+       {
+           "title": "Don't Start Now",
+           "artist": "Dua Lipa",
+           "genre": "Pop",
+           "released": 2019
+       },
+       {
+           "title": "Feel It Still",
+           "artist": "Portugal. The Man",
+           "genre": "Funk",
+           "released": 2017 
+       },
+       {
+           "title": "Get Lucky",
+           "artist": "Daft Punk",
+           "genre": "Electronic Dance Music",
+           "released": 2013
+       }
+]

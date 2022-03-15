@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+	<title>Songs</title>
+	<meta charset="utf-8"/>
+	<script>
+		function loadFile() {
+			//step 1: Make instance of request objecto
+			request = new XMLHttpRequest();
+			console.log("1 - request object created");
+ 
+			//step 2: Set the URL for the AJAX request to be the JSON file
+			request.open("GET", "/Users/jobran/Desktop/cs20/HW9/song.json", true);
+			console.log("2 - opened request file");
+ 
+			//step 3: set up event handler/callback
+			request.onreadystatechange = function() {
+				console.log("3 - readystatechange event fired.");
+				if (request.readyState == 4 && request.status == 200) {
+					//step 5: wait for done + success
+					result = request.responseText;
+					songs = JSON.parse(result);
+					strHTML = "<ul>";
+					songs.forEach(function(song) { 
+					  strHTML += "<li>" + song.title + " : " + animal.artist + "</li>";
+					}) 
+					strHTML += "</ul>";
+					document.getElementById("data").innerHTML =strHTML;  
+				} else if (request.readyState == 4 && request.status != 200) {
+				    document.getElementById("data").innerHTML = "Something is wrong!  Check the logs to see where this went off the rails";
+
+				} else if (request.readyState == 3) {
+					document.getElementById("data").innerHTML = "Too soon!  Try again";
+				}
+			}
+		    //step 4: fire off the HTTP request
+		    request.send();
+			console.log("4 - Request sent");
+		}
+	</script>
+</head>
+
+
+<body onload="loadFile()">
+
+	<h1>Songs</h1>
+	<div id="data">Loading...</div>
+</body>
+</html>
